@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: darkslategrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 text-center text-white mt-4">Todo App</h1>
+        <div class="row">
+            <div class="col-md-6 mt-3 mx-auto">
+                <form id="main-form">
+                    <div class="form-group">
+                        <input type="text" id="title-inp" class="form-control" placeholder="Task Title">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="desc-inp" class="form-control" placeholder=" Description"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="chkbox" id="urgent-chk">
+                        <label for="chkbox" class="text-white">Urgent</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Add Todo" class="form-control btn btn-primary">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="">
+            <div class="row"  id="output">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
